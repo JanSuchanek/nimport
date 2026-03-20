@@ -1,0 +1,16 @@
+{
+    "name": "jansuchanek/nimport",
+    "description": "Universal data import framework for Nette — CSV/XML readers, pipeline processor, result reporting",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "nette/di": "^3.2",
+        "ext-xmlreader": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NImport\\": "src/"
+        }
+    }
+}
